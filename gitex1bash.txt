@@ -1,0 +1,59 @@
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory
+$ git init
+Initialized empty Git repository in C:/Users/Bramashree Manoharan/Desktop/Git Working Directory/.git/
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git mytextfile.txt
+git: 'mytextfile.txt' is not a git command. See 'git --help'.
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git add mytextfile.txt
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ ls
+mytextfile.txt
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git commit -m "adding my first text file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Bramashree Manoharan@LAPTOP-3C2UFCQL.(none)')
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git config --global user.email "s3862961@student.rmit.edu.au"
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git commit -m "adding my first text file"          [master (root-commit) 5dc6026] adding my first text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 mytextfile.txt
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git remote add origin https://github.com/BramhashreeRaghavaPillaiManoharan/Bram.git
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (master)
+$ git branch -M main
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (main)
+$ git push -u origin main
+
+numerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 271 bytes | 135.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BramhashreeRaghavaPillaiManoharan/Bram.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Bramashree Manoharan@LAPTOP-3C2UFCQL MINGW64 ~/Desktop/Git Working Directory (main)
+$
