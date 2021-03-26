@@ -1,0 +1,24 @@
+   12  git checkout bramtest
+   13  ls
+   14  cat mytextfile.txt
+   15  git checkout main
+   16  git merge bramtest
+   17  git mergetool
+   18  git add --all
+   19  git status
+   20  git commit
+   21  git push
+   22  history > commands.txt
+   23  notepad commands.txt
+   24  cat history
+   25  ls
+   26  cd New Folder
+   27  cd NF
+   28  cd s
+   29  cd n
+   30  ls
+   31  notepad yes.txt
+   32  git add yes.txt
+   33  git commit
+   34  git push
+   35  history > command1.txt
